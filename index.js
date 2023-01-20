@@ -18,7 +18,7 @@ function divide(number1, number2) {
 }
 
 
-window.alert("The sum is: " + add);
-window.alert("The subtraction is: " + subtract);
-window.alert("The miltiplication is: " + multiply);
-window.alert('The division is: ' + divide);
+window.alert("The sum is: " + add(number1,number2));
+window.alert("The subtraction is: " + subtract(number1,number2));
+window.alert("The miltiplication is: " + multiply(number1,number2));
+window.alert('The division is: ' + divide(number1,number2));
